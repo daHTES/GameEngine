@@ -1,0 +1,11 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: E:/projects/Coding/GameEngine/GameEngine3D/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_81ffa && [1/2] Building C object CMakeFiles\cmTC_81ffa.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_81ffa.dir/CheckIncludeFile.c.obj 
+"E:\Visual Studio\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_81ffa.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_81ffa.dir\ /FS -c CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Не удается открыть файл включение: pthread.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+
